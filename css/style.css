@@ -1,0 +1,50 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+/* Logo */
+.logo {
+	z-index: 10;
+}
+
+/* Navigation */
+.navbar-inner {
+	background-color: #01215a;
+	background-image: none;
+}
+.navbar .nav > .active > a {
+	background-color: #01215a;
+	box-shadow: none;
+	color: #fff;
+}
+.navbar .nav > .active > a:hover {
+	background-color: #327cfe;
+	box-shadow: none;
+	color: #fff;
+}
+
+/* Search */
+.navbar #search-block-form .btn {
+	line-height: 17px;
+}
+.navbar #block-search-form {
+	float: left;
+	width: 200px;
+	margin: 5px 10px 5px 5px;
+}
+
+/* Header */
+
+.region-header {
+	padding: 10px 0;
+	margin-top: -20px;
+	border-bottom: 1px solid #ccc;
+}
+
+/* Hero unit */
+
+.hero-unit {
+	padding: 0 10px;
+	margin-bottom: 10px;
+}
