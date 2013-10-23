@@ -5,7 +5,8 @@ base theme = bootstrap
 
 ; Regions
 regions[navigation]     = 'Navigation'
-regions[header]         = 'Top Bar'
+regions[header_left]    = 'Top Bar Left'
+regions[header_right]	= 'Top Bar Right'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'

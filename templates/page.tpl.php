@@ -42,11 +42,14 @@
 <div class="main-container container">
 
   <header role="banner" id="page-header">
-    <?php if (!empty($site_slogan)): ?>
-      <p class="lead"><?php print $site_slogan; ?></p>
-    <?php endif; ?>
-
-    <?php print render($page['header']); ?>
+    <div class="row">
+      <div class="span8 header-left">
+        <?php print render($page['header_left']); ?>
+      </div>
+      <div class="span4">
+        <?php print render($page['header_right']); ?>
+      </div>
+    </div>
   </header> <!-- /#header -->
 
   <div class="row-fluid">
