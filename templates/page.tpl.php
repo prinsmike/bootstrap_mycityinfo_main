@@ -42,7 +42,7 @@
 <div class="main-container container">
 
   <header role="banner" id="page-header">
-    <div class="row">
+    <div class="row-fluid">
       <div class="span8 header-left">
         <?php print render($page['header_left']); ?>
       </div>
